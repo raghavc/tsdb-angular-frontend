@@ -1,0 +1,12 @@
+<div class="header">
+  <h1>Barclays Credit Risk Dashboard</h1>
+</div>
+
+<div class="content">
+  <label for="table-select">Select Table:</label>
+  <select id="table-select" (change)="onTableChange($event)">
+    <option *ngFor="let table of tables" [value]="table">{{ table }}</option>
+  </select>
+
+  <app-credit-risk-dashboard [selectedTable]="selectedTable"></app-credit-risk-dashboard>
+</div>

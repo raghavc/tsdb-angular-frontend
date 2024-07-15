@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #0072ce; /* Barclays blue */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  
